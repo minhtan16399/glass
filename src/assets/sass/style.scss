@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url(./../img/background.jpg);
+    background-image: url(./../../../public/img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -18,7 +18,7 @@ body {
 .model {
     margin-top: 3rem;
     height: 400px;
-    background-image: url(./../img/model.jpg);
+    background-image: url(./../../../public/img/model.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
