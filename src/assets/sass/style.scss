@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(./../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+;
+.filter {
+    min-height: 100vh;
+  
+    background-color: rgba(0, 0, 0, 0.432);
+};
+
+.model {
+    margin-top: 3rem;
+    height: 400px;
+    background-image: url(./../img/model.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    .demo-glasses {
+        background-image: url(./../../../public/img/v7.png);
+        width: 50%;
+        height: 100px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        position: absolute;
+        top: 19.5%;
+        left: 25%;
+        opacity: 0.7;
+    };
+    .contents-title {
+        background-color: rgba(255, 81, 0, 0.521);
+        position: absolute;
+        bottom: 0;
+    };
+    .test-glasses {
+        background-image: url();
+        width: 50%;
+        height: 100px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        position: absolute;
+        top: 19.5%;
+        left: 25%;
+        opacity: 0.7;
+    }
+};
+
+.show-glasses {
+    .btn-icon {
+        width: 100px;
+        height: 50px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+}
